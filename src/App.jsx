@@ -3,7 +3,6 @@ import DotField from "./components/DotField";
 function App() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-[#120F17]">
-
       {/* DotField Background */}
       <div className="fixed inset-0 z-0">
         <DotField
@@ -22,26 +21,21 @@ function App() {
         />
       </div>
 
-      {/* Portfolio */}
-      <div className="relative z-10">
-        <h1 className="text-white text-6xl font-bold">
-          Krishna's Portfolio
-        </h1>
-      </div>
+     
 
       <div className="relative z-10 flex min-h-screen items-center justify-center px-6">
-  <div className="max-w-3xl rounded-2xl border border-white/10 bg-white/5 p-10 text-center backdrop-blur-sm">
-    <h1 className="text-5xl font-bold tracking-tight text-white md:text-7xl">
-      Hi, I am Lorem Ipsum...
-    </h1>
+        <div className="animate-slideUp max-w-3xl rounded-2xl border border-white/10 bg-white/5 p-10 text-center backdrop-blur-sm">
+          <h1 className="text-5xl font-bold tracking-tight text-white md:text-7xl">
+            Hi, I am Krishna Kumar P
+          </h1>
 
-    <p className="mt-6 text-lg leading-relaxed text-white/70 md:text-xl">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    </p>
-  </div>
-</div>
-
+          <p className="mt-6 text-lg leading-relaxed text-white/70 md:text-xl">
+            A passionate Computer Science student building real-world software
+            solutions by turning ideas into clean, useful, and modern digital
+            experiences.
+          </p>
+        </div>
+      </div>
     </main>
   );
 }
