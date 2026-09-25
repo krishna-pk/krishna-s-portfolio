@@ -1,4 +1,5 @@
 import DotField from "./components/DotField";
+import Hero from "./sections/Hero";
 
 function App() {
   return (
@@ -23,19 +24,7 @@ function App() {
 
      
 
-      <div className="relative z-10 flex min-h-screen items-center justify-center px-6">
-        <div className="animate-slideUp max-w-3xl rounded-2xl border border-white/10 bg-white/5 p-10 text-center backdrop-blur-sm">
-          <h1 className="text-5xl font-bold tracking-tight text-white md:text-7xl">
-            Hi, I am Krishna Kumar P
-          </h1>
-
-          <p className="mt-6 text-lg leading-relaxed text-white/70 md:text-xl">
-            A passionate Computer Science student building real-world software
-            solutions by turning ideas into clean, useful, and modern digital
-            experiences.
-          </p>
-        </div>
-      </div>
+      <Hero />
     </main>
   );
 }
