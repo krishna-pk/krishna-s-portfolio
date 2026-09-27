@@ -1,5 +1,7 @@
 import DotField from "./components/DotField";
+import About from "./sections/About";
 import Hero from "./sections/Hero";
+
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
      
 
       <Hero />
+      <About />
+     
     </main>
   );
 }
