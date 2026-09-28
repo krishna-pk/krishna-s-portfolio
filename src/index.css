@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-display: "PT Sans Narrow", sans-serif;
+}
 
 html {
   scroll-behavior: smooth;

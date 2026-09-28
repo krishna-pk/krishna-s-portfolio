@@ -1,4 +1,5 @@
 import GooeyNav from "../components/GooeyNav";
+import Card from "../components/Card";
 
 function About() {
   const items = [
@@ -32,6 +33,9 @@ function About() {
             />
           </div>
         </div>
+
+        <Card />
+
       </div>
     </section>
   );
