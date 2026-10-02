@@ -1,28 +1,15 @@
 import GooeyNav from "../components/GooeyNav";
 import Card from "../components/Card";
+import navLinks from "./../constants/navItems";
 
 function About() {
-  const items = [
-    { label: "Home", href: "#home" },
-    { label: "About", href: "#about" },
-    { label: "Skills", href: "#contact" },
-    { label: "Projects", href: "#contact" },
-    { label: "Works", href: "#contact" },
-    { label: "Contact", href: "#contact" },
-  ];
-
   return (
-    <section id="about" className="relative min-h-screen">
-      <div
-        style={{
-          height: "600px",
-          position: "relative",
-        }}
-      >
+    <section id="about" className="relative min-h-screen ">
+      <div className="h-150 relative">
         <div className="mt-5 flex items-center justify-center">
           <div className="w-2xl h-20 mt-5 bg-white/10  border-white/20 rounded-md flex items-center mx-6 ">
             <GooeyNav
-              items={items}
+              items={navLinks}
               particleCount={15}
               particleDistances={[90, 10]}
               particleR={100}
@@ -35,7 +22,6 @@ function About() {
         </div>
 
         <Card />
-
       </div>
     </section>
   );
